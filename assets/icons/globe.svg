@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="22" viewBox="0 0 24 22" shape-rendering="crispEdges">
+<defs></defs>
+<style>
+@keyframes flow{from{transform:translateX(0)}to{transform:translateX(-1000px)}}
+@keyframes flowR{from{transform:translateX(-1000px)}to{transform:translateX(0)}}
+@keyframes rise{0%{transform:translateY(0);opacity:0}10%{opacity:1}80%{opacity:1}100%{transform:translateY(-120px);opacity:0}}
+@keyframes blink{0%,100%{opacity:0}50%{opacity:1}}
+@keyframes cur{0%,49.9%{opacity:1}50%,100%{opacity:0}}
+@keyframes fa{0%,49.9%{opacity:1}50%,100%{opacity:0}}
+@keyframes fb{0%,49.9%{opacity:0}50%,100%{opacity:1}}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+.cl{animation:flow 80s steps(200) infinite}
+.w1{animation:flow 20s steps(200) infinite}
+.w2{animation:flowR 14s steps(200) infinite}
+.w3{animation:flow 9s steps(200) infinite}
+.bub{animation:rise steps(24) infinite}
+.spk{animation:blink steps(2) infinite}
+.cur{animation:cur 1s infinite}
+.fa{animation:fa .8s infinite}
+.fb{animation:fb .8s infinite}
+.bob{animation:bob .8s steps(2) infinite}
+@keyframes swimL{from{transform:translateX(1100px)}to{transform:translateX(-100px)}}
+@keyframes drift{0%,100%{transform:translateY(0)}50%{transform:translateY(-15px)}}
+@keyframes walk{0%,100%{transform:translateX(0)}50%{transform:translateX(260px)}}
+.swim{animation:swimL steps(240) infinite}
+.drift{animation:drift 3s steps(3) infinite}
+.walk{animation:walk 10s steps(52) infinite}
+.sw{animation:fa 1.2s infinite}.sw2{animation:fb 1.2s infinite}
+</style>
+<path d="M6 0h2v2h-2zM8 0h2v2h-2zM10 0h2v2h-2zM12 0h2v2h-2zM14 0h2v2h-2zM16 0h2v2h-2zM4 2h2v2h-2zM20 2h2v2h-2zM2 4h2v2h-2zM22 4h2v2h-2zM0 6h2v2h-2zM22 6h2v2h-2zM0 8h2v2h-2zM22 8h2v2h-2zM0 10h2v2h-2zM22 10h2v2h-2zM0 12h2v2h-2zM22 12h2v2h-2zM0 14h2v2h-2zM22 14h2v2h-2zM2 16h2v2h-2zM20 16h2v2h-2zM4 18h2v2h-2zM18 18h2v2h-2zM6 20h2v2h-2zM8 20h2v2h-2zM10 20h2v2h-2zM12 20h2v2h-2zM14 20h2v2h-2zM16 20h2v2h-2z" fill="#1565D8" fill-opacity="1"/><path d="M6 2h2v2h-2zM8 2h2v2h-2zM12 2h2v2h-2zM14 2h2v2h-2zM16 2h2v2h-2zM18 2h2v2h-2zM4 4h2v2h-2zM12 4h2v2h-2zM14 4h2v2h-2zM16 4h2v2h-2zM18 4h2v2h-2zM20 4h2v2h-2zM2 6h2v2h-2zM4 6h2v2h-2zM10 6h2v2h-2zM12 6h2v2h-2zM14 6h2v2h-2zM20 6h2v2h-2zM2 8h2v2h-2zM4 8h2v2h-2zM6 8h2v2h-2zM10 8h2v2h-2zM12 8h2v2h-2zM14 8h2v2h-2zM20 8h2v2h-2zM2 10h2v2h-2zM6 10h2v2h-2zM8 10h2v2h-2zM10 10h2v2h-2zM12 10h2v2h-2zM14 10h2v2h-2zM18 10h2v2h-2zM20 10h2v2h-2zM2 12h2v2h-2zM6 12h2v2h-2zM8 12h2v2h-2zM10 12h2v2h-2zM12 12h2v2h-2zM14 12h2v2h-2zM16 12h2v2h-2zM18 12h2v2h-2zM20 12h2v2h-2zM2 14h2v2h-2zM4 14h2v2h-2zM10 14h2v2h-2zM12 14h2v2h-2zM14 14h2v2h-2zM16 14h2v2h-2zM18 14h2v2h-2zM20 14h2v2h-2zM4 16h2v2h-2zM12 16h2v2h-2zM14 16h2v2h-2zM16 16h2v2h-2zM18 16h2v2h-2zM6 18h2v2h-2zM12 18h2v2h-2zM14 18h2v2h-2zM16 18h2v2h-2z" fill="#6EC1FF" fill-opacity="1"/><path d="M4 10h2v2h-2zM4 12h2v2h-2z" fill="#FFFFFF" fill-opacity="1"/><path d="M10 2h2v2h-2zM6 4h2v2h-2zM8 4h2v2h-2zM10 4h2v2h-2zM6 6h2v2h-2zM8 6h2v2h-2zM16 6h2v2h-2zM18 6h2v2h-2zM8 8h2v2h-2zM16 8h2v2h-2zM18 8h2v2h-2zM16 10h2v2h-2zM6 14h2v2h-2zM8 14h2v2h-2zM6 16h2v2h-2zM8 16h2v2h-2zM10 16h2v2h-2zM8 18h2v2h-2zM10 18h2v2h-2z" fill="#22C7A0" fill-opacity="1"/>
+</svg>
